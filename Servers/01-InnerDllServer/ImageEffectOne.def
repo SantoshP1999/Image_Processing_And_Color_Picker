@@ -1,0 +1,4 @@
+LIBRARY ImageEffectOne
+EXPORTS	
+	  DllGetClassObject PRIVATE
+	  DllCanUnloadNow   PRIVATE

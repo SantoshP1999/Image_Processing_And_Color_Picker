@@ -1,0 +1,18 @@
+Providing you with three files : 
+
+1)ImageEffectOne.dll
+2)ImageEffectOne.lib
+3)ImageEffectOne.h
+4)ImageEffectOne.reg
+
+About Header file
+Header file contains one interface INegative
+INegative provides ApplyNegative() functionality
+Mentioned interface inherits from IUnknown 
+Mentioned interface and GUIDs are given in header files
+You can call above mentioned functions on respective interface pointers
+
+Before building your client application do the following steps
+1.Copy the dll to C:\Windows\System32
+2.Double-click on .reg file to register your dll
+3.Build and run your client application

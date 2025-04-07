@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+[HKEY_CLASSES_ROOT\CLSID\{B1E1DDE2-3A94-4013-8CCE-357567213D92}]
+@="SBP_ImageEffectTwo"
+[HKEY_CLASSES_ROOT\CLSID\{B1E1DDE2-3A94-4013-8CCE-357567213D92}\InprocServer32]
+@="C:\\Windows\\System32\\ImageEffectTwo.dll"
